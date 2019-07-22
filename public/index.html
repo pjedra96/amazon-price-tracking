@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    	<meta name='description', content=''>
+    	<meta name='author', content=''>
+    	<link rel="icon" href="/../img/favicon.ico" type="image/x-icon">
+    	<link rel='stylesheet'  href='//fonts.googleapis.com/css?family=PT+Sans:400,700'>
+    	<link rel='stylesheet' href='css/style.css'>
+		<title>Amazon Price Tracking</title>
+	</head>
+	<body>
+		<div class="page-container">
+    		<a href='/'><img border='0' alt='Urban Sensing Logo' src='http://clipart-library.com/images/BcaEgre7i.png' width="140px" height="110px"></a>
+    		<h1> Amazon Price Watch </h1>
+    		<div id="detailsBox">
+		        <h2>Product & User Details</h2>
+		        <form action='/track' method='POST'>
+		        	<h3> Your Email Address </h3>
+		        	<input type='email' name='emailAddress' />
+		        	<h3> Link to the product </h3>
+		        	<input type='url' name='url' />
+		        	<h3> Price for the product to go below </h3>
+		        	<input type='text' name='price' />
+		        	<button type='submit'> Track the price </button>
+		        </form>
+		        <p> The price is checked every 24 hours </p>
+		        <p> Email of the creator: peterj1124@hotmail.com </p>
+		    </div>
+	</body>
+</html>
